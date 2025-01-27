@@ -12,8 +12,7 @@ Librerie Webcam:
 - LuminanceSource: Lo scopo di questa classe è di astrarre le diverse implementazioni di un’immagine bitmap da diverse piattaforme in un formato con valori standard in scala di grigi.
 - BinaryBitmap: Questa è la classe principale utilizzata da Zxing per rappresentare un dato binario.
 - HybridBinarizer: Si occupa della binarizzazione dell’immagine acquisita. È progettata per le immagini di codici a barre ad alta frequenza con dati neri su sfondo bianco.
-- MultiFormatReader: Di default cerca di decodificare tutti i formati di codici a barre supportati dalla libreria. Opzionalmente, si può richiedere un differente comportamento, ad esempio solo la decodifica di     
-  QRCode.
+- MultiFormatReader: Di default cerca di decodificare tutti i formati di codici a barre supportati dalla libreria. Opzionalmente, si può richiedere un differente comportamento, ad esempio solo la decodifica di QRCode.
 - MultiFormatReader.decode(BinaryBitmap image): decodifica l’immagine passata come argomento nella maniera di default (senza specificare nessun particolare tipo di decodifica)
 - Random: Un’istanza di questa classe è usata per generare un flusso di numeri pseudocasuali. Questa classe usa un seme di 48 bit, che è modificata usando una formula lineare.
 - Random.nextInt(int n): Genera un numero pseudocasuale compreso tra 0 (incluso) ed n (escluso).
